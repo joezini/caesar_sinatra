@@ -1,0 +1,24 @@
+<html>
+<head>
+	<style>
+	body {
+		font-family: Arial;
+	}
+	</style>
+</head>
+<body>
+	<h1>Caesar Cypher</h1>
+	<img src='http://ppcorn.com/us/wp-content/uploads/sites/14/2016/01/Julius-Caesar-pop-art-ppcorn.jpg' height='200px'/>
+	<br>
+	<br>
+	<form>
+		<label>Message</label>
+		<input type='text' name='message' />
+		<label>Shift</label>
+		<input type='text' name='shift' />
+		<input type='submit' value='Encode!' />
+	</form>
+	<p>
+		<%= encoded_message %>
+	</p>
+</body>
